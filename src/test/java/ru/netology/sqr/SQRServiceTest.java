@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SQRServiceTest {
 
+<<<<<<< HEAD
     @ParameterizedTest
     @CsvSource(
             value = {
@@ -23,6 +24,10 @@ class SQRServiceTest {
             delimiter = ','
     )
     void shouldCalculateSQR(int lowTest, int highTest, int expected) {
+=======
+    @Test
+    void shouldCalculateSQR() {
+>>>>>>> 8cdafa508e1a63341606cac90d874d2f1ff8f780
         SQRService service = new SQRService();
         //int lowTest = 100;
         //int highTest = 200;
